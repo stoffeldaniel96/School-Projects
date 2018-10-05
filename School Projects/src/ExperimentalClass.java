@@ -7,9 +7,6 @@ public class ExperimentalClass {
      
     private static int click = 0;
     static ArrayList<Point> pointStore = new ArrayList<Point>();
-    // as much as possible, don't use the water in the tank when they're off  
-    // because it can cause air locks. You'll get no water anyway if the tank is  
-    // empty  
     public static void main(String[] args) throws Exception {  
         JFrame f = new JFrame("Draw a red line");  
         f.setSize(300, 300);  

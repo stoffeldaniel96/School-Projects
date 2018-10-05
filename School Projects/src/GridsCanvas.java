@@ -42,7 +42,7 @@ class GridsCanvas extends JPanel{
 
   public static void main(String[] a) 
   {
-	  JFrame frame = new JFrame("Bresenham Line Algorithm by Daniel & Branden");
+	  JFrame frame = new JFrame("Bresenham Line Algorithm by Daniel");
 	 
 	  JComponent printGrid = new GridsCanvas(100, 100);  
       printGrid.setFocusable(true);

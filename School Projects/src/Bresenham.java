@@ -27,8 +27,8 @@ public class Bresenham
 	static ArrayList<Point> pointStore = new ArrayList<Point>();
 	static Point pointStart = null;  
     	static Point pointEnd = null;  
-   	 static Point temppointStart = null;   
-   	 static boolean rLock;
+   	static Point temppointStart = null;   
+   	static boolean rLock;
     	
     	static class displayPanel extends JPanel {
         public displayPanel() {

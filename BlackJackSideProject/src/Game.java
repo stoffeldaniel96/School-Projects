@@ -1,18 +1,18 @@
 import java.util.Scanner;
 /**
- * Write a description of class Game here.
+ *  This is a comprehensive blackjack program I wrote as a side project while in AP Computer Science in my senior year of highschool.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Daniel Stoffel
+ * @version 9/28/2014
  */
 public class Game
 {
    public static void main (String[] args)
    {
        Scanner scan = new Scanner(System.in);
-       String welcome = "♠♣♦♥ | Welcome to BlackJack Simulator 2014! | ♥♦♣♠\n";
+       String welcome = "笙�笙｣笙ｦ笙･ | Welcome to BlackJack Simulator 2014! | 笙･笙ｦ笙｣笙�\n";
        String line = "___________________________________________________ ";
-       String decLine = "\n♠♣♦♥♠♣♦♥♠♣♦♥♠♣♦♥♠♣♦♥♠♣♦♥♠♣♦♥♠♣♦♥♠♣♦♥";
+       String decLine = "\n笙�笙｣笙ｦ笙･笙�笙｣笙ｦ笙･笙�笙｣笙ｦ笙･笙�笙｣笙ｦ笙･笙�笙｣笙ｦ笙･笙�笙｣笙ｦ笙･笙�笙｣笙ｦ笙･笙�笙｣笙ｦ笙･笙�笙｣笙ｦ笙･";
        String numPlayers = "\nNumber of Players(Max 4): ";
        String starMoney = "\nStarting Money: $";
        String diffAsk = "\nHouse Difficulty: \n(1) Easy \n(2) Medium \n(3) Hard \nChosen: ";

@@ -30,13 +30,23 @@ public class palidriver
 
 	public static void main(String args[])
 	{
-		System.out.println("Insert Phrase for Palindrome Checking: ");
-		scanner = new Scanner (System.in);
-		String input = scanner.nextLine();
-		palidromeChecker checkd = new palidromeChecker(input);
-		if(checkd.checkPal())
-			System.out.println(input + " is a Palindrome!");
-		else
-			System.out.println(input + " is not a Palindrome!");
+		boolean stateFinish = false;
+		while (stateFinish == false) 
+		{
+			System.out.print("Insert Phrase for Palindrome Checking: ");
+			scanner = new Scanner (System.in);
+			String input = scanner.nextLine();
+			palidromeChecker checkd = new palidromeChecker(input);
+			if(checkd.checkPal())
+				System.out.println(input + " is a palindrome!");
+			else
+				System.out.println(input + " is not a palindrome!");
+			System.out.print ("Would you like to try again? (Y/N): " );
+			input = scanner.nextLine();
+			System.out.println("");
+			if (input == "N")
+				stateFinish = true;
+				
+		}
 	}
 }

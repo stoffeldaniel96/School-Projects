@@ -44,9 +44,10 @@ public class palidriver
 			System.out.print ("Would you like to try again? (Y/N): " );
 			input = scanner.nextLine();
 			System.out.println("");
-			if (input == "N")
+			if (input.equalsIgnoreCase("N"))
 				stateFinish = true;
 				
 		}
+		scanner.close();
 	}
 }

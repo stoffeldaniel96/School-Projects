@@ -26,7 +26,7 @@ public class Bresenham
 	private static int click = 0;
 	static ArrayList<Point> pointStore = new ArrayList<Point>();
 	static Point pointStart = null;  
-    	static Point pointEnd = null;  
+    static Point pointEnd = null;  
    	static Point temppointStart = null;   
    	static boolean rLock;
     	
